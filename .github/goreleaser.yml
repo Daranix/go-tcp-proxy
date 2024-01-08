@@ -20,7 +20,7 @@ builds:
       - 6
       - 7
 archives:
-  - format: gz
+  - format: tar.gz
     files:
       - none*
 release:

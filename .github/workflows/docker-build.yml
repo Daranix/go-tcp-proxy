@@ -7,7 +7,7 @@ name: Build Docker
 
 on:
   release:
-    types: [published]
+    types: [published, released]
   workflow_dispatch:
 env:
   # Use docker.io for Docker Hub if empty
